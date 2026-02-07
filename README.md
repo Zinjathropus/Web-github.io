@@ -1,4 +1,3 @@
-# Web-github.io
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <head>
@@ -13,7 +12,7 @@
 </head>
 <body class="bg-[#0a0a0b] text-white font-['Inter'] overflow-x-hidden">
 
-    <nav class="fixed w-full z-50 top-0 glass-effect border-b border-white/10 px-6 py-4">
+<nav class="fixed w-full z-50 top-0 glass-effect border-b border-white/10 px-6 py-4">
         <div class="max-w-7xl mx-auto flex justify-between items-center">
             <div class="flex items-center gap-2 font-bold text-xl tracking-tighter">
                 <div class="w-8 h-8 bg-gradient-to-br from-purple-500 to-blue-500 rounded-lg flex items-center justify-center">
@@ -22,7 +21,7 @@
                 <span>Lwazi Manqele</span>
             </div>
             
-            <div class="hidden md:flex gap-8 text-sm font-medium text-gray-400">
+<div class="hidden md:flex gap-8 text-sm font-medium text-gray-400">
                 <a href="#home" class="hover:text-purple-400 transition-colors">Home</a>
                 <a href="#about" class="hover:text-purple-400 transition-colors">About</a>
                 <a href="#skills" class="hover:text-purple-400 transition-colors">Skills</a>
@@ -31,18 +30,18 @@
                 <a href="#contact" class="hover:text-purple-400 transition-colors">Contact</a>
             </div>
 
-            <button class="md:hidden text-white" id="menu-btn">
+<button class="md:hidden text-white" id="menu-btn">
                 <i data-lucide="menu"></i>
             </button>
         </div>
     </nav>
 
-    <section id="home" class="relative min-h-screen flex items-center justify-center pt-20 px-6 overflow-hidden">
+<section id="home" class="relative min-h-screen flex items-center justify-center pt-20 px-6 overflow-hidden">
         <div class="absolute inset-0 z-0 opacity-20">
             <div id="particles-js" class="w-full h-full"></div>
         </div>
         
-        <div class="text-center z-10" data-aos="fade-up">
+<div class="text-center z-10" data-aos="fade-up">
             <div class="relative inline-block mb-6">
                 <div class="absolute inset-0 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full blur-xl opacity-30 animate-pulse"></div>
                 <img src="https://via.placeholder.com/150" alt="Profile" class="relative w-32 h-32 rounded-full border-2 border-purple-500/50 object-cover">
@@ -61,7 +60,7 @@
                 <a href="#projects" class="px-8 py-3 bg-white/5 border border-white/10 rounded-full font-semibold hover:bg-white/10 transition-all">View Projects</a>
             </div>
             
-            <div class="flex justify-center gap-6 mt-12 text-gray-400">
+<div class="flex justify-center gap-6 mt-12 text-gray-400">
                 <a href="#" class="hover:text-white transition-colors"><i data-lucide="github"></i></a>
                 <a href="#" class="hover:text-white transition-colors"><i data-lucide="linkedin"></i></a>
                 <a href="#" class="hover:text-white transition-colors"><i data-lucide="twitter"></i></a>
@@ -70,7 +69,7 @@
         </div>
     </section>
 
-    <section id="about" class="py-24 px-6 max-w-7xl mx-auto">
+<section id="about" class="py-24 px-6 max-w-7xl mx-auto">
         <div class="grid md:grid-cols-2 gap-16 items-center">
             <div class="relative" data-aos="fade-right">
                 <div class="aspect-square bg-white/5 rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
@@ -104,7 +103,7 @@
         </div>
     </section>
 
-    <section id="skills" class="py-24 px-6 bg-[#0c0c0e]">
+<section id="skills" class="py-24 px-6 bg-[#0c0c0e]">
         <div class="max-w-7xl mx-auto text-center mb-16">
             <h2 class="text-4xl font-bold mb-4">Technical Arsenal</h2>
             <p class="text-gray-400">A comprehensive suite of tools for the modern digital era.</p>
@@ -140,7 +139,7 @@
         </div>
     </section>
 
-    <section id="services" class="py-24 px-6 max-w-7xl mx-auto">
+<section id="services" class="py-24 px-6 max-w-7xl mx-auto">
         <h2 class="text-3xl font-bold mb-12 text-center">My Services</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div class="p-8 rounded-2xl bg-white/5 border border-white/10 hover:scale-105 transition-transform duration-300">
@@ -153,7 +152,7 @@
             </div>
     </section>
 
-    <section id="contact" class="py-24 px-6 bg-[#0a0a0b] border-t border-white/5">
+<section id="contact" class="py-24 px-6 bg-[#0a0a0b] border-t border-white/5">
         <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-16">
             <div data-aos="fade-right">
                 <h2 class="text-4xl font-bold mb-6">Let's Collaborate</h2>
@@ -190,7 +189,7 @@
         </div>
     </section>
 
-    <footer class="py-12 px-6 border-t border-white/5 text-center">
+ <footer class="py-12 px-6 border-t border-white/5 text-center">
         <div class="flex justify-center gap-6 mb-8 text-gray-500">
             <a href="#"><i data-lucide="github" class="w-5 h-5 hover:text-white transition-colors"></i></a>
             <a href="#"><i data-lucide="linkedin" class="w-5 h-5 hover:text-white transition-colors"></i></a>
@@ -199,9 +198,9 @@
         <p class="text-gray-500 text-sm">© 2024 Onyeka Obasiocha. All Rights Reserved.</p>
     </footer>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-    <script src="script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
 /* Glassmorphism Styles */
@@ -277,11 +276,11 @@ function type() {
         charIndex++;
     }
 
-    typeTarget.textContent = currentRole.substring(0, charIndex);
+ typeTarget.textContent = currentRole.substring(0, charIndex);
 
-    let typeSpeed = isDeleting ? 50 : 150;
+let typeSpeed = isDeleting ? 50 : 150;
 
-    if (!isDeleting && charIndex === currentRole.length) {
+if (!isDeleting && charIndex === currentRole.length) {
         typeSpeed = 2000; // Pause at end
         isDeleting = true;
     } else if (isDeleting && charIndex === 0) {
@@ -290,7 +289,7 @@ function type() {
         typeSpeed = 500;
     }
 
-    setTimeout(type, typeSpeed);
+ setTimeout(type, typeSpeed);
 }
 
 // Particle Background Config
