@@ -19,7 +19,7 @@
                 <div class="w-8 h-8 bg-gradient-to-br from-purple-500 to-blue-500 rounded-lg flex items-center justify-center">
                     <i data-lucide="cpu" class="w-5 h-5"></i>
                 </div>
-                <span>Onyeka Obasiocha</span>
+                <span>Lwazi Manqele</span>
             </div>
             
             <div class="hidden md:flex gap-8 text-sm font-medium text-gray-400">
